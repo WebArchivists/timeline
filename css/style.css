@@ -101,15 +101,18 @@ header {
     height: 45px;
     margin-left: 17px;
     position: fixed;  
-    top: 0;     
+    top: 0;
     width: 926px;
     z-index: 500;
 }
 
 #menu ul {
-    padding:15px;
-    width:450px;
+    left: 50%;
     list-style-type:none;
+    margin-left: -165px;
+    padding:15px;
+    position: relative;
+    width:330px;
 }
 
 #menu ul li {
@@ -165,12 +168,18 @@ header {
 
 #about {
     width:860px;
-    height:130px;
     margin:0 auto;
     background-color:#00F;
     color:#FFF;
-    padding:20px 56px 30px 10px;
-}	
+    padding:20px 56px 20px 10px;
+}
+#about a {
+    color:#FFF;
+    text-decoration: underline;
+}
+#about a:hover {
+    color:#CCC;
+}
 
 #about p {
     font-size:14px;
